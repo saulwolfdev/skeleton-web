@@ -12,15 +12,16 @@
     background-color: aqua;
     padding: 1em;
 }
-.wrapper{
+.container{
     display: flex;
     flex: 1;
 }
-.main__cards,
+section,
 .main{
     display: flex;
     flex: 1;
 }
+.section__cards,
 .main__section{
     display: flex;
     flex: 1;
@@ -29,6 +30,9 @@
 }
 .main__section:nth-child(even){
     background-color: aliceblue;
+}
+.section__cards:nth-child(even){
+    background-color: darkcyan;
 }
 .footer{
     background-color: aquamarine;
