@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.header{
+    background-color: aqua;
+    padding: 1em;
+}
+.wrapper{
+    display: flex;
+    flex: 1;
+}
+.main__cards,
+.main{
+    display: flex;
+    flex: 1;
+}
+.main__section{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.main__section:nth-child(even){
+    background-color: aliceblue;
+}
+.footer{
+    background-color: aquamarine;
+    padding: 1em;
+}
