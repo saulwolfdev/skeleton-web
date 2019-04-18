@@ -1,0 +1,19 @@
+.container {
+    font-size: 2em;
+    background: rgb(20, 255, 255);
+    padding: 1%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px, 1fr));
+    grid-gap: 1%;
+  }
+
+  .item-grid{
+      background-color: deepskyblue;
+  }
+
+  .item-grid:nth-child(even){
+      background-color: deeppink;
+  }
+  .item-grid img {
+    width: 100%;
+  }

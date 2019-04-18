@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/saulwolfcode/skeleton-web/issues"
   },
-  "homepage": "https://github.com/saulwolfcode/skeleton-web#readme"
+  "homepage": "https://github.com/saulwolfcode/skeleton-web#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
 }
