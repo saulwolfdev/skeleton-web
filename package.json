@@ -20,7 +20,7 @@
   "homepage": "https://github.com/saulwolfcode/skeleton-web#readme",
   "dependencies": {},
   "devDependencies": {
-    "node-sass": "^4.11.0",
-    "nodemon": "^1.18.11"
+    "node-sass": "^4.13.0",
+    "nodemon": "^2.0.2"
   }
 }
